@@ -70,10 +70,20 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .text-light-gray {
     color: #a2a4a5;
+}
+
+.no-padding {
+    padding: 0!important;
+}
+
+.no-margin {
+    margin: 0!important;
 }
 
 /* NAVBAR */
@@ -148,6 +158,100 @@ section {
     left: 50%;
     transform: translate(-50%,50%);
     z-index: 10;
+}
+
+/* PORTFOLIO */
+#portfolio .portfolio-container {
+    margin-bottom: 30px;
+}
+
+#portfolio .col-sm-6 .img-container {
+    width: calc(50% - 20px);
+    padding-bottom: 250px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+}
+
+#portfolio .col-sm-6 .img-container:after,
+#portfolio .col-sm-6 .img-container:before,
+#portfolio .img-container .summary {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+#portfolio .col-sm-6 .img-container:after {
+    content: "+";
+    line-height: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+
+#portfolio .col-sm-6 .img-container:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #3c3e3e;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#portfolio .img-container .summary {
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    display: block;
+    margin: 10px;
+    z-index: 1;
+}
+
+#portfolio .col-sm-6 .img-container:hover:after,
+#portfolio .img-container:hover .summary {
+    opacity: 1;
+}
+
+#portfolio .col-sm-6 .img-container:hover:before {
+    opacity: .85;
+}
+
+#portfolio .summary {
+    border-right: 1px solid #fff;
+    padding: 10px 10px 10px 0;
+}
+
+#portfolio .summary p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#portfolio .summary p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#portfolio .col-sm-6:nth-of-type(1) .img-container:nth-of-type(3n),
+#portfolio .col-sm-6:nth-of-type(2) .img-container:nth-of-type(3n - 2) {
+    width: calc(100% - 20px);
+    padding-bottom: 400px;
 }
 
 /* TEAM */

@@ -104,6 +104,56 @@
                 <span class="clearfix"></span>
                 Portfolio
             </h1>
+            <div class="portfolio-container">
+                <div class="row">
+                    <div class="col-sm-6 no-padding">
+                        <a href="#" class="img-container">
+                            <img src="{{ asset('img/portfolio/1.png') }}" alt="Portfolio">
+                            <span class="summary">
+                                <p class="title">Project Name</p>
+                                <p class="sub">Lorem Ipsum</p>
+                            </span>
+                        </a>
+                        <a href="#" class="img-container">
+                            <img src="{{ asset('img/portfolio/2.png') }}" alt="Portfolio">
+                            <span class="summary">
+                                <p class="title">Project Name</p>
+                                <p class="sub">Lorem Ipsum</p>
+                            </span>
+                        </a>
+                        <a href="#" class="img-container">
+                            <img src="{{ asset('img/portfolio/3.png') }}" alt="Portfolio">
+                            <span class="summary">
+                                <p class="title">Project Name</p>
+                                <p class="sub">Lorem Ipsum</p>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                        <a href="#" class="img-container">
+                            <img src="{{ asset('img/portfolio/3.png') }}" alt="Portfolio">
+                            <span class="summary">
+                                <p class="title">Project Name</p>
+                                <p class="sub">Lorem Ipsum</p>
+                            </span>
+                        </a>
+                        <a href="#" class="img-container">
+                            <img src="{{ asset('img/portfolio/1.png') }}" alt="Portfolio">
+                            <span class="summary">
+                                <p class="title">Project Name</p>
+                                <p class="sub">Lorem Ipsum</p>
+                            </span>
+                        </a>
+                        <a href="#" class="img-container">
+                            <img src="{{ asset('img/portfolio/2.png') }}" alt="Portfolio">
+                            <span class="summary">
+                                <p class="title">Project Name</p>
+                                <p class="sub">Lorem Ipsum</p>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <a href="#" class="btn btn-blue">See more</a>
         </div>
     </section>
