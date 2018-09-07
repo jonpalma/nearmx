@@ -7,16 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ env('APP_NAME') }}</title>
-    <link rel="icon" href="{{ asset('img/icon.ico') }}">
+    <link rel="icon" href="{{ asset('public/img/icon.ico') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     @yield('head')
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/app.css') }}">
 </head>
 <body data-spy="scroll" data-target="#navbar">
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top smooth-transition-300" id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="#banner"><img src="{{ asset('img/logo.png') }}" alt="NearMX"></a>
+        <a class="navbar-brand" href="#banner"><img src="{{ asset('public/img/logo.png') }}" alt="NearMX"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -69,7 +69,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm-7 col-md-8">
-                    <img src="{{ asset('img/logo-footer.png') }}" alt="NearMX" class="img-fluid mx-auto">
+                    <img src="{{ asset('public/img/logo-footer.png') }}" alt="NearMX" class="img-fluid mx-auto">
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <span>Derechos Reservados {{ date('Y') }}</span>
     </div>
 </footer>
-<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript" src="{{ asset('public/js/app.js') }}"></script>
 @yield('scripts')
 <script>
     $.ajaxSetup({

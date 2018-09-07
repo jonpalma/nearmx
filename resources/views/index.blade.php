@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('head')
-    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/index.css') }}">
 @endsection
 @section('scripts')
-    <script type="text/javascript" src="{{ asset('js/index.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/index.js') }}"></script>
 @endsection
 @section('content')
     <div id="banner">
@@ -46,7 +46,7 @@
             </h1>
             <div class="row text-white">
                 <div class="col-6 col-sm-4">
-                    <img src="{{ asset('img/services/1.png') }}" alt="Creative Design">
+                    <img src="{{ asset('public/img/services/1.png') }}" alt="Creative Design">
                     <h5>Creative Design</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -54,7 +54,7 @@
                     </p>
                 </div>
                 <div class="col-6 col-sm-4">
-                    <img src="{{ asset('img/services/2.png') }}" alt="User Experience">
+                    <img src="{{ asset('public/img/services/2.png') }}" alt="User Experience">
                     <h5>User Experience</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -62,7 +62,7 @@
                     </p>
                 </div>
                 <div class="col-6 col-sm-4">
-                    <img src="{{ asset('img/services/3.png') }}" alt="Custom">
+                    <img src="{{ asset('public/img/services/3.png') }}" alt="Custom">
                     <h5>Custom</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -70,7 +70,7 @@
                     </p>
                 </div>
                 <div class="col-6 col-sm-4">
-                    <img src="{{ asset('img/services/4.png') }}" alt="Rating">
+                    <img src="{{ asset('public/img/services/4.png') }}" alt="Rating">
                     <h5>Rating</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -78,7 +78,7 @@
                     </p>
                 </div>
                 <div class="col-6 col-sm-4">
-                    <img src="{{ asset('img/services/5.png') }}" alt="Responsive">
+                    <img src="{{ asset('public/img/services/5.png') }}" alt="Responsive">
                     <h5>Responsive</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -86,7 +86,7 @@
                     </p>
                 </div>
                 <div class="col-6 col-sm-4">
-                    <img src="{{ asset('img/services/6.png') }}" alt="Support">
+                    <img src="{{ asset('public/img/services/6.png') }}" alt="Support">
                     <h5>Support</h5>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -108,21 +108,21 @@
                 <div class="row">
                     <div class="col-sm-6 no-padding">
                         <a href="#" class="img-container">
-                            <img src="{{ asset('img/portfolio/1.png') }}" alt="Portfolio">
+                            <img src="{{ asset('public/img/portfolio/1.png') }}" alt="Portfolio">
                             <span class="summary">
                                 <p class="title">Project Name</p>
                                 <p class="sub">Lorem Ipsum</p>
                             </span>
                         </a>
                         <a href="#" class="img-container">
-                            <img src="{{ asset('img/portfolio/2.png') }}" alt="Portfolio">
+                            <img src="{{ asset('public/img/portfolio/2.png') }}" alt="Portfolio">
                             <span class="summary">
                                 <p class="title">Project Name</p>
                                 <p class="sub">Lorem Ipsum</p>
                             </span>
                         </a>
                         <a href="#" class="img-container">
-                            <img src="{{ asset('img/portfolio/3.png') }}" alt="Portfolio">
+                            <img src="{{ asset('public/img/portfolio/3.png') }}" alt="Portfolio">
                             <span class="summary">
                                 <p class="title">Project Name</p>
                                 <p class="sub">Lorem Ipsum</p>
@@ -131,21 +131,21 @@
                     </div>
                     <div class="col-sm-6 no-padding">
                         <a href="#" class="img-container">
-                            <img src="{{ asset('img/portfolio/3.png') }}" alt="Portfolio">
+                            <img src="{{ asset('public/img/portfolio/3.png') }}" alt="Portfolio">
                             <span class="summary">
                                 <p class="title">Project Name</p>
                                 <p class="sub">Lorem Ipsum</p>
                             </span>
                         </a>
                         <a href="#" class="img-container">
-                            <img src="{{ asset('img/portfolio/1.png') }}" alt="Portfolio">
+                            <img src="{{ asset('public/img/portfolio/1.png') }}" alt="Portfolio">
                             <span class="summary">
                                 <p class="title">Project Name</p>
                                 <p class="sub">Lorem Ipsum</p>
                             </span>
                         </a>
                         <a href="#" class="img-container">
-                            <img src="{{ asset('img/portfolio/2.png') }}" alt="Portfolio">
+                            <img src="{{ asset('public/img/portfolio/2.png') }}" alt="Portfolio">
                             <span class="summary">
                                 <p class="title">Project Name</p>
                                 <p class="sub">Lorem Ipsum</p>
@@ -167,7 +167,7 @@
             <div class="row">
                 <div class="col-12 col-md-4 mx-auto">
                     <div class="img-container">
-                        <img src="{{ asset('img/team/1.png') }}" alt="Manager">
+                        <img src="{{ asset('public/img/team/1.png') }}" alt="Manager">
                         <a href="" class="absolut-align smooth-transition-300" rel="nofollow" target="_blank">
                             <i class="fab fa-facebook-f absolut-align"></i>
                         </a>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-12 col-md-4 mx-auto">
                     <div class="img-container">
-                        <img src="{{ asset('img/team/2.png') }}" alt="Manager">
+                        <img src="{{ asset('public/img/team/2.png') }}" alt="Manager">
                         <a href="" class="absolut-align smooth-transition-300" rel="nofollow" target="_blank">
                             <i class="fab fa-facebook-f absolut-align"></i>
                         </a>
@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-12 col-md-4 mx-auto">
                     <div class="img-container">
-                        <img src="{{ asset('img/team/3.png') }}" alt="Manager">
+                        <img src="{{ asset('public/img/team/3.png') }}" alt="Manager">
                         <a href="" class="absolut-align smooth-transition-300" rel="nofollow" target="_blank">
                             <i class="fab fa-facebook-f absolut-align"></i>
                         </a>
