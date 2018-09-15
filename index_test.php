@@ -10,8 +10,8 @@
     <link rel="icon" href="public/img/icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://app.projects.des/nearmx/public/css/index.css">
-    <link rel="stylesheet" href="http://app.projects.des/nearmx/public/css/app.css">
+    <link rel="stylesheet" href="public/css/index.css">
+    <link rel="stylesheet" href="public/css/app.css">
 </head>
 <body data-spy="scroll" data-target="#navbar">
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top smooth-transition-300" id="navbar">
